@@ -1,0 +1,51 @@
+.cabecalho {
+    padding: 2rem;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #22D4FD;
+    text-decoration: none;
+    margin-left: 3rem;
+}
+
+.menu-mobile,
+.icone-menu-mobile {
+    display: none;
+}
+
+@media (max-width:1200px){
+    .menu{
+        display: none;
+    }
+
+    .icone-menu-mobile {
+        position: relative;
+        display: block;
+        font-size: 2rem;
+    }
+
+    .cabecalho__menu {
+        display: block;
+    }
+
+    #menu-hamburguer {
+        position: absolute;
+        flex-direction: column;
+    }
+
+    .menu-hambuguer-item {
+        text-decoration: none;
+        color: white;
+        margin: 1rem 0;
+        font-size: 1.1rem;
+    }
+
+}

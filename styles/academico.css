@@ -1,0 +1,28 @@
+.estudos {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.formacao {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.certificados {
+    margin: 1rem 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.link_curso {
+    text-decoration: none;
+    color: white;
+}
+
+.link_curso:hover {
+    color: #22D4FD;
+}
