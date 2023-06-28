@@ -67,7 +67,7 @@
     padding: 21.5px 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    
+
 }
 
 .apresentacao__links__link:hover {
@@ -85,7 +85,7 @@
 .card-projeto {
     color: black;
     text-align: center;
-    width: 30%!important;
+    width: 30% !important;
     margin-top: 5rem;
 }
 
@@ -105,7 +105,14 @@
     }
 
     .card-projeto {
-        width: 50%!important;
+        width: 50% !important;
+        margin-top: 12rem;
     }
-  
+
+
+
+}
+
+@media (max-width:600px) {
+    
 }
